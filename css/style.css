@@ -1,0 +1,210 @@
+.armory_display {
+	padding:5px;
+}
+
+.armory_display img {
+	margin:0;
+	border: 0;
+}
+
+img.armory_char_prof {
+	border:none;
+	float:left;
+	padding-right:10px;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.armory_display h4 {
+	margin-top:15px;
+	margin-bottom:5px;
+	font-weight:bold;
+	font-size:140%;
+}
+
+span.armory_char_name {
+	font-weight:bold;
+	font-size:130%;
+}
+
+span.armory_char_info {
+	font-size:90%;	
+}
+
+ul.armory_equip_list {
+	padding-left:10px;
+	padding-right:10px;
+	list-style:none !important;
+}
+
+ul.armory_equip_list li {
+	display:inline !important;
+	background-image:none !important;
+	padding:0 !important;
+	margin:0 !important;
+
+}
+
+ul.armory_equip_list li a, ul.armory_achiev_list li a {
+	background-image:none !important;
+}
+
+img.armory_item_icon {
+	padding:2px !important;
+}
+
+
+
+ul.armory_prof_list, ul.armory_achiev_list {
+	list-style:none !important;
+}
+
+ul.armory_prof_list li, ul.armory_achiev_list li {
+ background-image:none !important;
+}
+
+
+
+ul.armory_achiev_list li {
+	display:block;
+	margin:3px !important;
+	height: 27px;
+}
+
+
+img.armory_achiev_icon {
+	padding-right:10px;
+	float: left;
+}
+
+
+
+span.armory_prof_name {
+ font-weight:bold;
+}
+
+span.active_spec {
+	border:1px #000 dashed;
+	padding-right:5px;
+}
+
+span.inactive_spec {
+	margin-left:10px;
+}
+
+div.wa-model {
+	text-align:center;
+	height:400px;
+	width:100%;
+	display:inline;
+	text-align:center;
+}
+
+div.wa-load {
+	display:none;
+	text-align:center;
+	height:400px;
+	width:100%;
+	vertical-align:middle;
+}
+/* autocomplete */
+.ac_input {
+	width: 200px;
+}
+.ac_results {
+	padding: 0px;
+	border: 1px solid WindowFrame;
+	background-color: Window;
+	overflow: hidden;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results iframe {
+	display:none;/*sorry for IE5*/
+	display/**/:block;/*sorry for IE5*/
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	filter:mask();
+	width:3000px;
+	height:3000px;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	font: menu;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.ac_over {
+	background-color: Highlight;
+	color: HighlightText;
+}
+
+.apoints .progressTxt {
+	background:url(shield.gif) 2px 1px no-repeat !important;
+	text-indent:15px;
+}
+
+.apoints {
+	width: 100%;
+}
+
+.prof {
+	width: 80%;
+	
+}
+
+.prof .progressTxt {
+	text-indent:15px;
+}
+
+.prog-bar {
+	line-height: 14px !important;
+	margin: 12px 0 6px 4px;
+	text-align:center;
+	color:white;
+	padding:0;
+	height:16px;
+	border: 1px solid black;
+	background:url('bar-grey.gif') repeat-x;
+	position:relative;
+	
+}
+
+.prog-bar b {
+	height:16px;
+	margin:0;
+	padding:0;
+	white-space: nowrap;
+	float: left;
+}
+
+.prog-bar .progressTxt {
+	position: absolute;
+	display: inline; 
+	float: left;
+	left:0;
+	top:0;
+}
+.bar-green {
+	background:url('bar-life.gif') repeat-x;
+}
+
+.bar-blue {
+	background:url('bar-mana.gif') repeat-x;
+}
